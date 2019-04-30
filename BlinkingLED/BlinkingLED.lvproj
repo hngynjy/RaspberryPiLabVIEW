@@ -15,7 +15,7 @@
 	</Item>
 	<Item Name="Raspberry Pi 2 B" Type="Raspberry Pi 2 B">
 		<Property Name="alias.name" Type="Str">Raspberry Pi 2 B</Property>
-		<Property Name="alias.value" Type="Str">192.168.178.67</Property>
+		<Property Name="alias.value" Type="Str">192.168.178.144</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;LINX_DEVICE,True;LINX_DEVICE_FAMILY,4;LINX_DEVICE_ID,3;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
