@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3507CCEA81AA600D0540DFE60BC234940A2983EAAFC1B71F7CB59F6645301E6F7A28DDFB61B85004F4B26AB2A0F09F02A7FAF71861FE27B0F3C56A9B6992FE5E" Timestamp="1D4FF26100FB1A6" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="FFC6FE5EE61811213BEACE21915A0D144624B48CCEEDD0BC0CD9252D266760E4E9FADA645B9ACB8E83B1C5DE8EFEDA7091A83DC3DE66B5EAB1A888A7428810A8" Timestamp="1D50179EC927F85" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -72,7 +72,11 @@
 				<StringControl AcceptsReturn="[bool]True" Height="[float]95" Id="116" Label="[UIModel]117" Left="[float]3" MinHeight="[float]24" TabIndex="[int]2" Text="{ClusterBinding FieldName=source}" Top="[float]70" Width="[float]162" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 				<p4:Label Height="[float]16" Id="117" LabelOwner="[UIModel]116" Left="[float]3" Text="[string]source" Top="[float]50" Width="[float]35" />
 			</Cluster>
-			<ArrayViewer ArrayElement="[UIModel]120" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]686" Id="119" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Left="[float]0" Orientation="[SMOrientation]Vertical" Rows="[int]4" TabIndex="[int]5" Top="[float]20" Value="{DataItemBinding Id=94}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]127" xmlns="http://www.ni.com/PanelCommon">
+			<ArrayViewer ArrayElement="[UIModel]129" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]126" Id="128" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Left="[float]0" Orientation="[SMOrientation]Vertical" Rows="[int]4" TabIndex="[int]5" Top="[float]20" Value="{DataItemBinding Id=95}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>""</p.DefaultElementValue>
+				<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="129" IsReadOnly="[bool]True" MinHeight="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<ArrayViewer ArrayElement="[UIModel]120" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]680" Id="119" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]130" Left="[float]116" Orientation="[SMOrientation]Vertical" Rows="[int]4" TabIndex="[int]6" Top="[float]84" Value="{DataItemBinding Id=94}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]120" xmlns="http://www.ni.com/PanelCommon">
 				<p.DefaultElementValue>0x0_0x0_0x0_</p.DefaultElementValue>
 				<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@c82144fd1f3145138dc5f9e0972127bd" Height="[float]164" Id="120" TabIndex="[int]0" Width="[float]88" p5:ControlDefinitionChecksum="BOWssdMEmjX4tAFIickavUIPUiFS8pmhAjhQGwi86ho=" xmlns:p5="http://www.ni.com/PanelCommon">
 					<p5:p.TypeDefinitionTargets>
@@ -85,10 +89,7 @@
 					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="125" Label="[UIModel]126" Left="[float]4" MinHeight="[float]24" Top="[float]128" Value="{ClusterBinding FieldName=RH}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 					<p5:Label Id="126" LabelOwner="[UIModel]125" Left="[float]4" Text="[string]RH" Top="[float]108" />
 				</Cluster>
-			</ArrayViewer>
-			<ArrayViewer ArrayElement="[UIModel]129" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]126" Id="128" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Left="[float]0" Orientation="[SMOrientation]Vertical" Rows="[int]4" TabIndex="[int]6" Top="[float]20" Value="{DataItemBinding Id=95}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]111" xmlns="http://www.ni.com/PanelCommon">
-				<p.DefaultElementValue>""</p.DefaultElementValue>
-				<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="129" IsReadOnly="[bool]True" MinHeight="[float]24" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<Label Height="[float]16" Id="130" IsVisualChild="[bool]False" LabelOwner="[UIModel]119" Text="[string]Actuals" Width="[float]39" />
 			</ArrayViewer>
 		</FrontPanelUnplacedItems>
 		<BlockDiagram Id="12">
