@@ -5,4 +5,6 @@ I followed the installation instructions from makerhub (https://www.labviewmaker
 
 I use a Raspberry Pi 3 B.
 
+This is my playground. Don't expect too much documentation :-)
+
 
